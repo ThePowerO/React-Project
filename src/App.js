@@ -12,3 +12,5 @@ function App() {
             <button className="buttonSearch">
                 <FiSearch size={25} color="#fff"/>
             </button>
+
+        </div>
