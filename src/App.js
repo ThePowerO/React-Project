@@ -10,3 +10,4 @@ function App() {
             <input type="text" placeholder="Type your CEP"></input>
 
             <button className="buttonSearch">
+                <FiSearch size={25} color="#fff"/>
