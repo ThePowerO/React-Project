@@ -6,3 +6,86 @@
     flex-direction: column;
     background: linear-gradient(#121212, #ff8b8b);
 }
+
+.title {
+    font-size: 85px;
+    color: #FFF;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.containerInput {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.containerInput input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    color: #FFF;
+    margin-right: 8px;
+}
+
+.buttonSearch {
+    background-color: transparent;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 0;
+    transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 9px;
+    width: 470px;
+
+}
+
+.main h2 {
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.main span {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 570px) {
+    .title {
+        font-size: 70px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+    }
+
+    .main {
+        width: 78%;
+        min-height: 250px;
+    }
+}
