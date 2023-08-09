@@ -8,3 +8,5 @@ function App() {
     
         <div className="containerInput">
             <input type="text" placeholder="Type your CEP"></input>
+
+            <button className="buttonSearch">
