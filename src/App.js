@@ -25,4 +25,5 @@ function App() {
 
         </main>
       </div>
+  );
 
