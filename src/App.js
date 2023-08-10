@@ -17,6 +17,8 @@ function App() {
       return;
     }
 
+    try {
+
   
   return (
     <div className="container">
