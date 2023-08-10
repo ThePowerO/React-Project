@@ -21,6 +21,7 @@ function App() {
       const response = await api.get(`${input}/json`);
       setCep(response.data)
       setInput("");
+    }
 
   
   return (
