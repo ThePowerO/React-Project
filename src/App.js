@@ -27,6 +27,7 @@ function App() {
       setInput("")
     }
 
+  } 
   
   return (
     <div className="container">
