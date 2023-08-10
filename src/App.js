@@ -43,7 +43,8 @@ function App() {
         </div>
 
         {Object.keys(cep).length > 0 && (
-          
+          <main className="main">
+
       </div>
   );
 }
