@@ -47,6 +47,8 @@ function App() {
             <h2>CEP: {cep.cep}</h2>
 
             <span>Street: {cep.logradouro}</span>
+            <span>complement: {cep.complemento}</span>
+
       </div>
   );
 }
