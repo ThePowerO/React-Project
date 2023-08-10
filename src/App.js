@@ -51,6 +51,8 @@ function App() {
             <span>Neighborhood: {cep.bairro}</span>
             <span>City: {cep.localidade} - {cep.uf}</span>
 
+          </main>
+
       </div>
   );
 }
