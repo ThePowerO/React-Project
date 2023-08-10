@@ -42,15 +42,8 @@ function App() {
 
         </div>
 
-        <main className="main">
-            <h2>CEP: 79985884</h2>
-
-            <span>Street: test</span>
-            <span>complement: test</span>
-            <span>Neighborhood: test</span>
-            <span>City test - State</span>
-
-        </main>
+        {Object.keys(cep).length > 0 && (
+          
       </div>
   );
 }
