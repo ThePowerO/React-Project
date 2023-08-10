@@ -48,6 +48,7 @@ function App() {
 
             <span>Street: {cep.logradouro}</span>
             <span>complement: {cep.complemento}</span>
+            <span>Neighborhood: {cep.bairro}</span>
 
       </div>
   );
