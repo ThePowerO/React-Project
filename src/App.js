@@ -15,6 +15,7 @@ function App() {
     if (input === "") {
       alert("Provide with a CEP")
       return;
+    }
 
   
   return (
