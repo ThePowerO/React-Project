@@ -13,6 +13,7 @@ function App() {
     // 01001000/json/
 
     if (input === "") {
+      alert("Provide with a CEP")
 
   
   return (
