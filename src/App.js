@@ -23,6 +23,7 @@ function App() {
       setInput("");
     }
     catch {
+      alert("Something went wrong")
 
   
   return (
