@@ -22,6 +22,7 @@
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.2);
     border-radius: 15px;
+
 }
 
 .containerInput input {
@@ -30,3 +31,54 @@
     padding: 12px;
     color: #fff;
     border: 0;
+    outline: none;
+    font-size: 17px;
+}
+
+.containerInput input::placeholder {
+    color: #b8a9a9;
+    margin-left: 5px;
+}
+
+.buttonSearch {
+    background-color: transparent;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 0;
+    transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    width: 450px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.main h2 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+
+.main span {
+    margin-bottom: 12px;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
